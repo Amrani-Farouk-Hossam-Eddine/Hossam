@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+.header {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(158, 171, 177);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+nav {
+  display: flex;
+  background-color: #0A3250;
+  justify-content: space-between;
+}
+nav .af {
+  display: grid;
+  width: 60%;
+  grid-template-columns: 320px 400px 100px;
+}
+nav .af  pre {
+  padding: 5px 50px;
+  color: rgb(231, 241, 249);
+  font-size: 20px;
+  font-weight: bold;
+}
+nav .af .button {
+  display: inline-block;
+  font-size: 15px;
+  width: 90px;
+  padding: 0px 1px;
+  background-color: #D9C990;
+  color: #FFF;
+  line-height: 22px;
+  height: 22px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 7px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav .af  .button .fa {
+  padding-left: 2px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+nav .icon {
+  width: 250px;
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px;
+  column-gap: 15px;
+}
+nav .icon .fa {
+  color: #FFF;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px;
+}
+nav .icon .fa:hover {
+  content: '';
+  color: #D9C990;
+}
+.nav {
+  display: grid;
+  grid-template-columns: 230px 750px 200px;
+}
+.nav .img {
+  text-decoration: none;
+  margin: 25px 60px;
+}
+.nav .img img {
+  width: 100px;
+  
+}
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+.nav ul li a{
+  text-decoration: none;
+  color: rgb(111, 111, 111);
+  font-size: 19px;
+  font-weight: 580;
+}
+.nav ul li a:hover {
+  color: #0A3250;
+}
+.nav .cc {
+  padding: 50px 20px;
+}
+.nav .ss {
+  padding: 50px 0;
+}
+.nav .ss .fa {
+  font-size: 20px;
+  color:rgb(111, 111, 111);
+  padding-right: 17px;
+  cursor: pointer;
+  transition: transform .3s;
+}
+.nav .cc .home {
+  color: #0A3250;
+  position: relative;
+}
+.nav .cc .home::before{
+  content: '';
+  position: absolute;
+  width: 47px;
+  height: 2px;
+  top: 25px;
+  background-color: #0A3250;
+}
+.nav .cc .one, .two, .three, .four, .five {
+  position: relative;
+  
+}
+.nav .cc .one::before{
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 2px;
+  top: 25px;
+  background-color: #0A3250;
+  transition: width 0.5s;
+}
+.nav .cc .one:hover::before{
+  width: 152px;
+}
+.nav .cc .two::before{
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 2px;
+  top: 25px;
+  background-color: #0A3250;
+  transition: width 0.5s;
+}
+.nav .cc .two:hover::before{
+  width: 100px;
+}
+.nav .cc .three::before{
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 2px;
+  top: 25px;
+  background-color: #0A3250;
+  transition: width 0.5s;
+}
+.nav .cc .three:hover::before{
+  width: 45px;
+}
+.nav .cc .four::before{
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 2px;
+  top: 25px;
+  background-color: #0A3250;
+  transition: width 0.5s;
+}
+.nav .cc .four:hover::before{
+  width: 45px;
+}
+.nav .cc .five::before{
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 2px;
+  top: 25px;
+  background-color: #0A3250;
+  transition: width 0.5s;
+}
+.nav .cc .five:hover::before{
+  width: 70px;
+}
+.nav .ss span {
+  padding: 5px 20px;
+  background-color: #0A3250;
+  color: #FFF;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.5s;
+
+}
+.nav .ss span:hover {
+  content: '';
+  box-shadow:0px 0px 7px 1px #0A3250;
+  transform: translateY(-5px);
+}
+.nav .ss .fa:hover {
+  content: '';
+  color: #0A3250;
+  transform: translateY(-3px);
+}
